@@ -60,11 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				22CDEDE529DDA6ED00153CD3 /* bos_swift_projeApp.swift */,
+				22CDEDFB29DDB47B00153CD3 /* views */,
+				22CDEDFC29DDB49800153CD3 /* viewmodels */,
 				22CDEDE729DDA6ED00153CD3 /* ContentView.swift */,
-				22CDEDF329DDA70A00153CD3 /* SettingsView.swift */,
-				22CDEDF729DDA79400153CD3 /* SettingsViewModel.swift */,
-				22CDEDF529DDA75800153CD3 /* CourtView.swift */,
-				22CDEDF929DDA7A100153CD3 /* CourtViewModel.swift */,
 				22CDEDE929DDA6EE00153CD3 /* Assets.xcassets */,
 				22CDEDEB29DDA6EE00153CD3 /* Preview Content */,
 			);
@@ -77,6 +75,24 @@
 				22CDEDEC29DDA6EE00153CD3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22CDEDFB29DDB47B00153CD3 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				22CDEDF329DDA70A00153CD3 /* SettingsView.swift */,
+				22CDEDF529DDA75800153CD3 /* CourtView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		22CDEDFC29DDB49800153CD3 /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				22CDEDF729DDA79400153CD3 /* SettingsViewModel.swift */,
+				22CDEDF929DDA7A100153CD3 /* CourtViewModel.swift */,
+			);
+			path = viewmodels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
