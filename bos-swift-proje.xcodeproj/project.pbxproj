@@ -11,6 +11,10 @@
 		22CDEDE829DDA6ED00153CD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDEDE729DDA6ED00153CD3 /* ContentView.swift */; };
 		22CDEDEA29DDA6EE00153CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CDEDE929DDA6EE00153CD3 /* Assets.xcassets */; };
 		22CDEDED29DDA6EE00153CD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CDEDEC29DDA6EE00153CD3 /* Preview Assets.xcassets */; };
+		22CDEDF429DDA70A00153CD3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDEDF329DDA70A00153CD3 /* SettingsView.swift */; };
+		22CDEDF629DDA75800153CD3 /* CourtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDEDF529DDA75800153CD3 /* CourtView.swift */; };
+		22CDEDF829DDA79400153CD3 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDEDF729DDA79400153CD3 /* SettingsViewModel.swift */; };
+		22CDEDFA29DDA7A100153CD3 /* CourtViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDEDF929DDA7A100153CD3 /* CourtViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		22CDEDE729DDA6ED00153CD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22CDEDE929DDA6EE00153CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22CDEDEC29DDA6EE00153CD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22CDEDF329DDA70A00153CD3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		22CDEDF529DDA75800153CD3 /* CourtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtView.swift; sourceTree = "<group>"; };
+		22CDEDF729DDA79400153CD3 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		22CDEDF929DDA7A100153CD3 /* CourtViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				22CDEDE529DDA6ED00153CD3 /* bos_swift_projeApp.swift */,
 				22CDEDE729DDA6ED00153CD3 /* ContentView.swift */,
+				22CDEDF329DDA70A00153CD3 /* SettingsView.swift */,
+				22CDEDF729DDA79400153CD3 /* SettingsViewModel.swift */,
+				22CDEDF529DDA75800153CD3 /* CourtView.swift */,
+				22CDEDF929DDA7A100153CD3 /* CourtViewModel.swift */,
 				22CDEDE929DDA6EE00153CD3 /* Assets.xcassets */,
 				22CDEDEB29DDA6EE00153CD3 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22CDEDF829DDA79400153CD3 /* SettingsViewModel.swift in Sources */,
+				22CDEDF429DDA70A00153CD3 /* SettingsView.swift in Sources */,
+				22CDEDFA29DDA7A100153CD3 /* CourtViewModel.swift in Sources */,
 				22CDEDE829DDA6ED00153CD3 /* ContentView.swift in Sources */,
+				22CDEDF629DDA75800153CD3 /* CourtView.swift in Sources */,
 				22CDEDE629DDA6ED00153CD3 /* bos_swift_projeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var settingsViewModel = SettingsViewModel()
+    @StateObject var courtViewModel = CourtViewModel()
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            SettingsView(settingsViewModel: settingsViewModel)
+            CourtView(courtViewModel: courtViewModel)
+                .onAppear {
+                    courtViewModel.setup(settingsViewModel)
+                }
         }
         .padding()
     }
